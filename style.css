@@ -10,7 +10,6 @@ body {
   margin: auto;
   width: 80%;
 }
-
 .logo,.menu {
   display: inline-block;
 }
@@ -28,6 +27,7 @@ body {
   padding-left: 44px;
   font: bold 24px/32px 'pt_serif', serif, arial, helvetica, sans-serif;
 }
+
 
 .menu {
   display: flex;
@@ -111,6 +111,7 @@ body {
   opacity: 1;
   width: 100%;
 }
+
 .main {
   padding: 0 63% 100px 0;
   padding-right: 63%;
@@ -134,10 +135,10 @@ body {
   font: 14px/16px Roboto, arial, helvetica, sans-serif;
   padding: 14px 16px;
   color: #fff;
-  background: #0056EC;
+  background: #0056ec;
   border-radius: 4px;
   text-decoration: none;
-  transition: opacity .5s;
+  transition: opacity 0.5s;
 }
 
 .main__button:hover {
@@ -145,5 +146,5 @@ body {
 }
 
 .main__title_highlight {
-  background: #ECF3FF;
+  background: #ecF3ff;
 }
