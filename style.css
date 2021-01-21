@@ -236,6 +236,17 @@ body {
   }
 } 
 
-#checkbox {
+#checkbox_id:checked ~ .menu {
+  display: flex;
+  height: 100px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+#checkbox_id:checked ~ .menu > .menu__item {
+  color: black;
+  text-decoration: none;
+}
+#checkbox_id {
   display: none;
 }
