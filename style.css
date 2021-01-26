@@ -660,7 +660,7 @@ body {
 #checkbox_id:checked ~ .menu > .menu__item {
   color: black;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 37px;
   font-weight: 600;
 }
 
@@ -724,24 +724,25 @@ body {
 #checkbox_id:checked ~ .menu {
   display: flex;
   height: 100vh;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: column;
   background: #fff;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
   width: 100%;
+  margin: 2px 0px 0px 0px;
 }
 
 #checkbox_id:checked ~ .menu > .menu__item {
   color: black;
   text-decoration: none;
-  font-size: 25px;
-  padding-left: 28px;
+  font-size: 31px;
   font-weight: 600;
-  display: inline;
-  height: 34px;
-  margin-bottom: 20px;
+  height: 40px;
+  display: block;
+  margin: 0 24px 20px 40px;
+  word-spacing: 0px;
 }
 
 
