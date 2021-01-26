@@ -644,6 +644,45 @@ body {
 .burger__nav::after {
   bottom: 0px;
 }
+
+#checkbox_id:checked ~ .menu {
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  flex-direction: column;
+  background: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#checkbox_id:checked ~ .menu > .menu__item {
+  color: black;
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+
+#checkbox_id:checked ~ .label > .burger__nav::before {
+  transform: rotate(45deg);
+  top:7px;
+}
+
+#checkbox_id:checked ~ .label > .burger__nav::after {
+  transform: rotate(-45deg);
+  top:7px;
+}
+
+#checkbox_id:checked ~ .label > .burger__nav > .burger__line {
+  display: none;
+  
+}
+
+#checkbox_id:checked ~ .menu > .menu__item::after  {
+  width: 0;
+}
 }
 
  .burger__nav {
@@ -697,8 +736,12 @@ body {
 #checkbox_id:checked ~ .menu > .menu__item {
   color: black;
   text-decoration: none;
-  font-size: 35px;
+  font-size: 25px;
+  padding-left: 28px;
   font-weight: 600;
+  display: inline;
+  height: 34px;
+  margin-bottom: 20px;
 }
 
 
@@ -723,4 +766,4 @@ body {
 
 #checkbox_id {
   display: none;
-}}
+}
