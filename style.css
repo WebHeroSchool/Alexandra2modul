@@ -499,7 +499,7 @@ body {
     background-size: 65%;
     background-position: top center;
    }
-  
+
   .main__title {
     width: 69%;
     margin: 0 auto;
@@ -687,11 +687,11 @@ body {
 }
 
   .burger__nav {
-    position: relative;
-    margin-right: 5px;
-    width: 29px;
-    height: 17px;
-    cursor: pointer;
+      position: relative;
+      margin-right: 5px;
+      width: 29px;
+      height: 17px;
+      cursor: pointer;
   }
 
   .burger__line {
