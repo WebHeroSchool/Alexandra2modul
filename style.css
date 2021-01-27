@@ -164,18 +164,18 @@ body {
 }
 
 @media (max-width: 1366px) {
-.wrapper {
-     width: 70%;
-}
- .logo,.menu {
-     display: inline-block;
+  .wrapper {
+    width: 70%;
+  }
+  .logo,.menu {
+    display: inline-block;
 }
 
-.header {
-     margin-bottom: 82px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
+  .header {
+    margin-bottom: 82px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
