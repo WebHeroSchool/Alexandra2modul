@@ -482,15 +482,15 @@ body {
 @media (max-width: 900px) {
   .header {
     margin-bottom: 28px;
- }
+  }
 
   .logo__text {
     display: none;
- }
+  }
 
   .menu {
     display: none;
- }
+  }
  
   .main {
     font-weight: 600px;
@@ -498,7 +498,7 @@ body {
     padding: 67% 0;
     background-size: 65%;
     background-position: top center;
-  }
+   }
 
   .main__title {
     width: 69%;
@@ -508,7 +508,7 @@ body {
     font-family: 'pt_serif', arial, helvetica, sans-serif;
     font-size: 30px;
     line-height: 39px;
-  }
+   }
 
   .main__subtitle {
     margin-bottom: 25px;
@@ -519,14 +519,14 @@ body {
     width: 45%;
     margin: 0 auto;
     padding: 0 0 25px 0;
-  }
+   }
 
   .main__botton {
     font-weight: 500px;
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 14px;
     line-height: 16px;
-  }
+   }
 }
 
 @media (max-width: 375px) {
@@ -669,19 +669,19 @@ body {
 
   #checkbox_id:checked ~ .label > .burger__nav::before {
     transform: rotate(45deg);
-    top:7px;
+    top: 7px;
   }
 
   #checkbox_id:checked ~ .label > .burger__nav::after {
     transform: rotate(-45deg);
-    top:7px;
+    top: 7px;
   }
 
   #checkbox_id:checked ~ .label > .burger__nav > .burger__line {
     display: none;
   }
 
-  #checkbox_id:checked ~ .menu > .menu__item::after  {
+  #checkbox_id:checked ~ .menu > .menu__item::after {
     width: 0;
   }
 }
