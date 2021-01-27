@@ -491,7 +491,7 @@ body {
   .menu {
     display: none;
   }
- 
+
   .main {
     font-weight: 600px;
     text-align: center;
@@ -499,7 +499,7 @@ body {
     background-size: 65%;
     background-position: top center;
    }
-
+  
   .main__title {
     width: 69%;
     margin: 0 auto;
@@ -621,7 +621,7 @@ body {
     cursor: pointer;
   }
 
-  .burger__line{
+  .burger__line {
     position: absolute;
     display: block;
     width: 100%;
@@ -637,7 +637,7 @@ body {
     height: 3px;
     background: #0056ec;
     position: absolute;
-    transition: .3s ease;
+    transition: 0.3s ease;
   }
 
   .burger__nav::before {
@@ -694,7 +694,7 @@ body {
     cursor: pointer;
   }
 
-  .burger__line{
+  .burger__line {
     position: absolute;
     display: block;
     width: 100%;
@@ -714,7 +714,7 @@ body {
   }
 
   .burger__nav::before {
-    top: 0;
+     top: 0;
   }
 
   .burger__nav::after {
@@ -755,11 +755,11 @@ body {
     top:7px;
   }
 
-  #checkbox_id:checked ~ .label > .burger__nav > .burger__line {
-    display: none;
+   #checkbox_id:checked ~ .label > .burger__nav > .burger__line {
+     display: none;
   }
 
-  #checkbox_id:checked ~ .menu > .menu__item::after  {
+  #checkbox_id:checked ~ .menu > .menu__item::after {
     width: 0;
   }
 
