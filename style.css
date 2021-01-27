@@ -533,7 +533,7 @@ body {
   .wrapper {
     width: 100%;
  }
- 
+
   .header {
     margin-bottom: 9px;
  }
@@ -686,21 +686,21 @@ body {
   }
 }
 
- .burger__nav {
-    position: relative;
-    margin-right: 5px;
-    width: 29px;
-    height: 17px;
-    cursor: pointer;
+.burger__nav {
+  position: relative;
+  margin-right: 5px;
+  width: 29px;
+  height: 17px;
+  cursor: pointer;
   }
 
- .burger__line {
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 3px;
-    background: #0056ec;
-    top: 7px;
+.burger__line {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 3px;
+  background: #0056ec;
+  top: 7px;
   }
 
 .burger__nav::before,
@@ -710,7 +710,7 @@ body {
   height: 3px;
   background: #0056ec;
   position: absolute;
-  transition: .3s ease;
+  transition: 0.3s ease;
   }
 
 .burger__nav::before {
@@ -755,8 +755,8 @@ body {
   top: 7px;
   }
 
-  #checkbox_id:checked ~ .label > .burger__nav > .burger__line {
-    display: none;
+#checkbox_id:checked ~ .label > .burger__nav > .burger__line {
+  display: none;
   }
 
 #checkbox_id:checked ~ .menu > .menu__item::after {
