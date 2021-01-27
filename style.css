@@ -288,7 +288,7 @@ body {
 
   .main__subtitle {
     width: 366px;
-    margin: 41px 0px 40px 16px;
+    margin: 41px 0 40px 16px;
     font: 600 18px/21px 'Roboto', arial, helvetica, sans-serif;
     line-height: 22px;
     padding-top: 1px;
@@ -360,7 +360,7 @@ body {
   .logo__circle {
     position: absolute;
     top: 54px;
-    left: 0px;
+    left: 0;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -423,7 +423,7 @@ body {
   }
 
   .main {
-    padding: 64px 52% 199px 0px;
+    padding: 64px 52% 199px 0;
     background: url(img/mainImg.svg);
     background-repeat: no-repeat;
     background-position: top right;
@@ -452,7 +452,7 @@ body {
     border-radius: 4px;
     text-decoration: none;
     transition: opacity 0.5s;
-    line-height: 0px;
+    line-height: 0;
     margin-left: 41px;
     padding: 22px 27px 22px 16px;
   }
@@ -464,7 +464,7 @@ body {
   .main__title_highlight {
     line-height: 20px;
     background: #ecf3ff;
-    padding-left: 0px;
+    padding-left: 0;
     word-spacing: -4px;
   }
 }
@@ -477,22 +477,23 @@ body {
   #checkbox_id {
     display: none;
   }
-} 
+
+}
 
 @media (max-width: 900px) {
- .header {
+  .header {
     margin-bottom: 28px;
  }
 
- .logo__text {
+  .logo__text {
     display: none;
  }
 
- .menu {
+  .menu {
     display: none;
  }
  
- .main {
+  .main {
     font-weight: 600px;
     text-align: center;
     padding: 67% 0;
@@ -510,7 +511,7 @@ body {
     line-height: 39px;
   }
 
- .main__subtitle {
+  .main__subtitle {
     margin-bottom: 25px;
     font-weight: 600;
     font-family: 'Roboto', arial, helvetica, sans-serif;
@@ -521,7 +522,7 @@ body {
     padding: 0 0 25px 0;
   }
 
- .main__botton {
+  .main__botton {
     font-weight: 500px;
     font-family: Roboto, arial, helvetica, sans-serif;
     font-size: 14px;
@@ -573,7 +574,7 @@ body {
     font-family: 'pt_serif', arial, helvetica, sans-serif;
     font-size: 30px;
     line-height: 39px;
-    word-spacing: 0px;
+    word-spacing: 0;
     padding-right: 32px;
   }
 
@@ -585,8 +586,8 @@ body {
     line-height: 18px;
     width: 254px;
     padding-top: 16px;
-    padding-left: 0px;
-    margin: 1px 0px 5px 44px;
+    padding-left: 0;
+    margin: 1px 0 5px 44px;
   }
  
   .main__button {
@@ -597,7 +598,7 @@ body {
     text-decoration: none;
     transition: opacity 0.5s;
     line-height: 2;
-    margin: -4px 0px -13px 5px;
+    margin: -4px 0 -13px 5px;
     padding-top: 9px;
     padding-bottom: 7px;
   }
@@ -609,8 +610,8 @@ body {
   .main__title_highlight {
     line-height: 21px;
     background: #ecf3ff;
-    padding-left: 0px;
-    word-spacing: 0px;
+    padding-left: 0;
+    word-spacing: 0;
   }
 
   .burger__nav {
@@ -640,12 +641,12 @@ body {
     transition: .3s ease;
   }
 
-  .burger__nav::before {
-    top: 0px;
+   .burger__nav::before {
+    top: 0;
   }
 
-  .burger__nav::after {
-    bottom: 0px;
+   .burger__nav::after {
+    bottom: 0;
   }
 
    #checkbox_id:checked ~ .menu {
@@ -714,11 +715,11 @@ body {
   }
 
   .burger__nav::before {
-    top: 0px;
+    top: 0;
   }
 
   .burger__nav::after {
-    bottom: 0px;
+    bottom: 0;
   }
 
   #checkbox_id:checked ~ .menu {
@@ -729,9 +730,9 @@ body {
     background: #fff;
     position: absolute;
     top: 0;
-    left: 0px;
+    left: 0;
     width: 100%;
-    margin: 2px 0px 0px 0px;
+    margin: 2px 0 0 0;
   }
 
   #checkbox_id:checked ~ .menu > .menu__item {
@@ -742,7 +743,7 @@ body {
     height: 40px;
     display: block;
     margin: 0 24px 20px 40px;
-    word-spacing: 0px;
+    word-spacing: 0;
   }
 
   #checkbox_id:checked ~ .label > .burger__nav::before {
