@@ -508,7 +508,7 @@ body {
     font-family: 'pt_serif', arial, helvetica, sans-serif;
     font-size: 30px;
     line-height: 39px;
-   }
+  }
 
   .main__subtitle {
     margin-bottom: 25px;
@@ -537,7 +537,7 @@ body {
   .header {
     margin-bottom: 9px;
  }
- 
+
   .logo__circle {
     position: absolute;
     top: 38px;
@@ -741,7 +741,7 @@ body {
   font-weight: 600;
   height: 40px;
   display: block;
-  margin: 0px 24px 20px 40px;
+  margin: 0 24px 20px 40px;
   word-spacing: 0;
   }
 
