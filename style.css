@@ -519,7 +519,7 @@ body {
     width: 45%;
     margin: 0 auto;
     padding: 0 0 25px 0;
-   }
+  }
 
   .main__botton {
     font-weight: 500px;
@@ -588,7 +588,7 @@ body {
     padding-left: 0;
     margin: 1px 0 5px 44px;
   }
- 
+
   .main__button {
     font: 500 14px/23px Roboto, arial, helvetica, sans-serif;
     color: #fff;
