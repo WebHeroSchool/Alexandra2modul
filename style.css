@@ -771,14 +771,11 @@ body {
   }
 }
 
-.main__button {
-  color: #fff; 
-  }
 
 .main__button:hover {
   animation: gradient .9s infinite ease-in-out;
-  box-shadow: 10px 15px 30px;
   color: white;
-  transform: translateY(-7px);;
+  transform: translateY(-7px);
   box-shadow: 0 15px 20px rgba(0, 86, 236, 0.4);
+
   }
