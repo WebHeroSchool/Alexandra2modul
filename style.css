@@ -148,10 +148,6 @@ body {
   line-height: 21px;
 }
 
-.main__button:hover {
-  opacity: 0.5;
-}
-
 .main__title_highlight {
   line-height: 20px;
   background: #ecf3ff;
@@ -766,16 +762,16 @@ body {
   }
 
 @keyframes gradient {
- to {
-  background: linear-gradient(100deg, #0056ec, #225cd0, #4463b5, #666999, #89707e, #ab7662, #cd7d47, #ef832b);
+  to {
+    background: linear-gradient(100deg, #0056ec, #225cd0, #4463b5, #666999, #89707e, #ab7662, #cd7d47, #ef832b);
   }
 }
 
-
 .main__button:hover {
-  animation: gradient .9s infinite ease-in-out;
+  animation: gradient 0.9s infinite ease-in-out;
   color: white;
   transform: translateY(-7px);
   box-shadow: 0 15px 20px rgba(0, 86, 236, 0.4);
+  opacity: 0.5;
 
-  }
+}
