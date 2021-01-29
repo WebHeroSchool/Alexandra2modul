@@ -765,19 +765,20 @@ body {
   display: none;
   }
 
-  @keyframes gradient {
-    to {
-     background: linear-gradient(100deg, #0056ec, #225CD0, #4463B5, #666999, #89707E, #AB7662, #CD7D47, #EF832B);
-    }
+@keyframes gradient {
+ to {
+  background: linear-gradient(100deg, #0056ec, #225cd0, #4463b5, #666999, #89707e, #ab7662, #cd7d47, #ef832b);
+  }
+}
+
+.main__button {
+  color: #fff; 
   }
 
-  .main__button {
-    color: #fff; 
-  }
-  .main__button:hover {
-    animation: gradient .9s infinite ease-in-out;
-    box-shadow: 10px 15px 30px;
-    color: white;
-    transform: translateY(-7px);;
-    box-shadow: 0 15px 20px rgba(0, 86, 236, 0.4);
+.main__button:hover {
+  animation: gradient .9s infinite ease-in-out;
+  box-shadow: 10px 15px 30px;
+  color: white;
+  transform: translateY(-7px);;
+  box-shadow: 0 15px 20px rgba(0, 86, 236, 0.4);
   }
