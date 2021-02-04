@@ -466,10 +466,6 @@ body {
 }
 
 @media (min-width: 901px) {
-  .label {
-    display: none;
-  }
-
   #checkbox_id {
     display: none;
   }
@@ -522,6 +518,95 @@ body {
     font-size: 14px;
     line-height: 16px;
   }
+
+  .label {
+    display: block;
+    position: relative;
+    margin-right: 5px;
+    width: 29px;
+    height: 17px;
+    cursor: pointer;
+  }
+  
+  .label > span,
+  .label > span::before,
+  .label > span::after{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #0056ec;
+  }
+  
+  .label > span::before {
+    content: '';
+    top: -8px;
+    background: #0056ec;
+  }
+
+  .label > span::after {
+    content: '';
+    top: 8px;
+    background: #0056ec;
+  }
+
+  #checkbox_id:checked ~ .menu {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 8px;
+    left: 0;
+    width: 100%;
+    margin: 2px 0 0 0;
+  }
+
+  #checkbox_id:checked ~ .menu > .menu__item {
+    color: black;
+    text-decoration: none;
+    font-size: 31px;
+    font-weight: 600;
+    height: 40px;
+    display: block;
+    margin: 0 24px 20px 40px;
+    word-spacing: 0;
+  }
+  
+  #checkbox_id:checked ~ .label > span {
+    transform: rotate(45deg);
+  }
+  #checkbox_id:checked ~ .label > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #checkbox_id:checked ~ .label > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #checbox_id:checked ~ .menu {
+    visibility: visible;
+    left: 0;
+  }
+
+  #checkbox_id:checked ~ .label > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #checkbox_id:checked ~ .label > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #checbox_id:checked ~ .menu {
+    visibility: visible;
+    left: 0;
+  }
+
+  #checkbox_id {
+    opacity: 0;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -698,7 +783,7 @@ body {
   }
 
   .label {
-    display: block;
+    
     position: relative;
     margin-right: 5px;
     width: 29px;
